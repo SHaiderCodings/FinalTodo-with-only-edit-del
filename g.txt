@@ -1,0 +1,15 @@
+Button push for edit
+
+li.appendch(btnedot)
+ul.appendchild(li)
+
+btnedit.addeventlistener('click',function{
+
+
+var li=this.parentnode;
+var text=prompt('enter val',this.parentnode.id)
+li.innertext=text
+li.appchild(btn)
+li.appendch(btnedit)
+
+}
